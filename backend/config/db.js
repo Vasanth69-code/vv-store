@@ -1,10 +1,10 @@
 //mongodb+srv://<db_username>:<db_password>@vvstore.eytrgcr.mongodb.net/
-
+// mongodb+srv://hema:Hema2006@vvstore.eytrgcr.mongodb.net/
 import mongoose from "mongoose";
 
 const connextDB = async ()=>{
     try{
-        const connect = await mongoose.connect("mongodb+srv://hema:Hema2006@vvstore.eytrgcr.mongodb.net/")
+        const connect = await mongoose.connect("")
         console.log(`Database connected successfully${connect.connection.host}`);
     }
     catch(err){
