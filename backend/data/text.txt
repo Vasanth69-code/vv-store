@@ -1,0 +1,1 @@
+mongodb+srv://<db_username>:<db_password>@vvstore.eytrgcr.mongodb.net/
